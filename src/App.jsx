@@ -10,6 +10,7 @@ import {
 } from 'react-router-dom'
 import Sidebar from './components/sidebar.jsx'
 import Home from './pages/home.jsx'
+import About from './pages/about.jsx'
 
 // function Home() {
 //   const [count, setCount] = useState(0)
@@ -54,6 +55,7 @@ function App() {
       <Routes>
         <Route path="/home" element={<Home />} />
         <Route path="/sidebar" element={<Sidebar />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </Router>
   )
