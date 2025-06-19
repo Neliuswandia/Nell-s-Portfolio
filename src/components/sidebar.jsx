@@ -1,9 +1,11 @@
+import React from "react";
+
 function Sidebar() {
   const links = [
-    { href: "Home.jsx", label: "Home", icon: "🏠" },
-    { href: "About.jsx", label: "About", icon: "ℹ️" },
-    { href: "Projects.jsx", label: "Projects", icon: "💼" },
-    { href: "Contacts.jsx", label: "Contacts", icon: "📞" },
+    { href: "home", label: "Home", icon: "🏠" },
+    { href: "about", label: "About", icon: "ℹ️" },
+    { href: "projects", label: "Projects", icon: "💼" },
+    { href: "contacts", label: "Contacts", icon: "📞" },
   ];
 
   return (
