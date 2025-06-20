@@ -6,7 +6,8 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Link
+  Link,
+  Navigate
 } from 'react-router-dom'
 import Sidebar from './components/sidebar.jsx'
 import Home from './pages/home.jsx'
@@ -53,6 +54,7 @@ function App() {
   return (
     <Router>
       <Routes>
+        <Route path="/" element={<Navigate to="/home" replace />} />
         <Route path="/home" element={<Home />} />
         <Route path="/sidebar" element={<Sidebar />} />
         <Route path="/about" element={<About />} />
