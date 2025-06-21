@@ -1,7 +1,7 @@
 import React from 'react';
 import photo from '../assets/My_Photo.jpg';
 import Sidebar from '../components/sidebar.jsx';
-import video from '../assets/background-vid.mp4';
+import video from '../assets/background-vid2.mp4';
 function Home() {
     return (
         <div className="w-screen h-screen relative overflow-hidden">

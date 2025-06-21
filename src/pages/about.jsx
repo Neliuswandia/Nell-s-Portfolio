@@ -13,6 +13,18 @@ function About(){
                 <button className='text-white bg-[#363636] p-3 w-30 rounded-4xl hover:outline-solid outline-[#FFC400]'>Designer</button>
             </div> */}
             <h1 className=' text-[#FFC400] text-2xl font-bold flex justify-self-start m-10'>Personal info :</h1>
+            <p className='text-xl flex flex-col justify-start pl-25'>
+                <span className='text-[#363636] font-semibold'>Name:</span>
+                <span className='ml-2'>Nellius Wandia</span>
+                <span className='text-[#363636] font-semibold'>Email:</span>
+                <span className='ml-2'>watukunellius@gmail.com</span>
+                <span className='text-[#363636] font-semibold'>Phone No:</span>
+                <span className='ml-2'>+254791216702</span>
+                <span className='text-[#363636] font-semibold'>Languages:</span>
+                <span className='ml-2'>Swahili, English</span>
+                <span className='text-[#363636] font-semibold'>LinkedIn</span>
+                <a className='ml-2 text-[#FFC400] underline' href="https://www.linkedin.com/in/nellius-wandia" target="_blank" rel="noopener noreferrer">nellius-wandia</a>
+            </p>
             <Sidebar />
         </div>)
 }
