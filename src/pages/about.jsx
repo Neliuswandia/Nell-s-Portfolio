@@ -48,7 +48,7 @@ function About(){
             </div>
 
             <p className='text-[#FFC400] text-2xl font-bold flex justify-self-center relative top-25'>My Skills</p>
-            <div className='w-[65%] flex flex-wrap justify-around justify-self-center gap-20 mt-50'>
+            <div className='w-[59%] flex flex-wrap justify-around justify-self-center gap-10 mt-50'>
                 <div className='w-30 h-40 bg-[#363636] rounded-2xl'>
                     <img src="" alt="" />
                     <p className='text-[#Ffffff] text-sm font-semibold flex justify-center items-baseline-last h-full'>Figma</p>
@@ -97,9 +97,11 @@ function About(){
                     <p className='text-[#Ffffff] text-sm font-semibold flex justify-center items-baseline-last h-full'>HTML</p>
 
                 </div>
-
             </div>
 
-            <Sidebar />        </div>)
+            <p className='text-[#FFC400] text-2xl font-bold flex justify-self-center relative top-25'>Education</p>
+
+            <Sidebar />        
+        </div>)
 }
 export default About;
